@@ -26,6 +26,7 @@
 
 
         <EditText
+            android:id="@+id/email_edittext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:hint="@string/email"
@@ -35,6 +36,8 @@
 
 
         <EditText
+            android:inputType="textPassword"
+            android:id="@+id/password_edittext"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:hint="@string/password"
@@ -46,6 +49,7 @@
 
 
         <Button
+            android:id="@+id/email_login_button"
             android:text="@string/signin_email"
             android:layout_width="match_parent"
             android:layout_height="48dp"
@@ -55,6 +59,7 @@
             android:layout_marginBottom="35dp"/>
 
         <Button
+            android:id="@+id/facebook_login_button"
             android:text="@string/signin_facebook"
             android:textColor="@color/colorWhite"
             android:background="@drawable/btn_signin_facebook"
@@ -65,6 +70,7 @@
             android:layout_marginBottom="5dp"/>
 
         <Button
+            android:id="@+id/google_login_button"
             android:text="@string/signin_google"
             android:textColor="@color/colorWhite"
             android:background="@drawable/btn_signin_google"
